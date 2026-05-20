@@ -1,0 +1,11 @@
+﻿
+namespace Application.DTOs.BooksDTOs
+{
+    public class UpdateBookDTO
+    {
+        public required string Title { get; set; }
+        public required string ISBN { get; set; }
+        public int PublicationYear { get; set; }
+        public Guid CategoryId { get; set; }
+    }
+}
